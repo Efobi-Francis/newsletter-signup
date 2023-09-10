@@ -1,4 +1,4 @@
-import NewsletterForm from "../components/NewsLetterForm"
+import NewsletterForm from "../components/NewsletterForm"
 import SignupInfo from "../components/Signup_info"
 import imageSignupMobile from '../assets/images/illustration-sign-up-mobile.svg'
 
