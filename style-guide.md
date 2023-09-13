@@ -8,6 +8,7 @@ The designs were created to the following widths:
 - Desktop: 1440px
 
 ## Colors
+- #ff527b
 
 ### Primary
 
