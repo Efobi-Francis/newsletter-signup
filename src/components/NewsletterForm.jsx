@@ -38,10 +38,10 @@ export default function newsletterForm() {
             <form onSubmit={handleSubmit} className="flex flex-col mt-6 mb-5">
                 <div className=" font-RobotoBold mb-1 flex justify-between text-xs">
                     <label htmlFor="eAddress">Email address</label>
-                    {isSubmitClicked && !isValid && email.value.trim() !== '' && (
+                    {isSubmitClicked && !isValid && email.trim() !== '' && (
                         <span className=' text-red-400'>Valid email required</span>
                     )}
-                    {isSubmitClicked && isValid && email.value.trim() !== '' && (
+                    {isSubmitClicked && isValid && email.trim() !== '' && (
                         <span></span>
                     )}
                 </div>
