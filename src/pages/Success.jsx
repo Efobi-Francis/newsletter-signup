@@ -26,7 +26,7 @@ export default function success() {
                     Please open it and click <br /> the button inside to confirm your subscription.
                 </p>
             </div>
-            <button onClick={handleClick} className="bg-[hsl(234,29%,20%)] text-white py-4 rounded-lg mt-[60%] lg:my-10 hover:bg-gradient-to-r hover:from-[hsl(346,100%,66%)] hover:to-[hsl(4,100%,67%)]">Dismiss message</button>
+            <button onClick={handleClick} className="bg-[hsl(234,29%,20%)] text-white py-4 rounded-lg mt-[60%] lg:my-10 hover:bg-gradient-to-r hover:from-[hsl(346,100%,66%)] hover:to-[hsl(4,100%,67%)] hover:drop-shadow-[0_15px_15px_rgba(255,98,87,0.50)]">Dismiss message</button>
         </div>
     )
 }
